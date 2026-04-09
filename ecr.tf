@@ -1,8 +1,8 @@
-resource "aws_ecr_repository" "todo_app" {
-  name         = "todo-app"
-  force_delete = true
+resource "aws_ecr_repository" "node-todo-api" {
+  name         = "node-todo-api"
+  force_delete = true 
 
   tags = {
-    Name = "todo-app"
+    Name = "node-todo-api"
   }
 }
